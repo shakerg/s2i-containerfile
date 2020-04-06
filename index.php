@@ -5,7 +5,7 @@
 <body> 
 
 <?php
-  echo "<h2>Built from Containerfile v1!</h2>";
+  echo "<h2>Built from Containerfile v2!</h2>";
   echo "<p>Welcome: ";
   echo $_SERVER['HTTP_USER_AGENT'];
   echo "</p>";
