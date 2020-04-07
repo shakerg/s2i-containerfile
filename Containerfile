@@ -1,5 +1,5 @@
 FROM php:5-apache
-ADD index.php /var/www/html/index.php
+ADD app/index.php /var/www/html/index.php
 RUN chmod a+rx index.php
 
 ARG ARG_APACHE_LISTEN_PORT=8080
