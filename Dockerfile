@@ -1,4 +1,4 @@
-FROM php:5-apache
+FROM php:7-apache
 ADD app/index.php /var/www/html/index.php
 RUN chmod a+rx index.php
 
