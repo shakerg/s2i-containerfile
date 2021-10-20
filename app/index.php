@@ -6,7 +6,7 @@
 
 <?php
   echo "<h2>Built from Dockerfile v2!</h2>";
-  echo "<p>Your User-Agent is still:</p>";
+  echo "<p>Your User-Agent is:</p>";
   echo "<p>";
   echo $_SERVER['HTTP_USER_AGENT'];
   echo "</p>";
