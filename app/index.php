@@ -5,7 +5,7 @@
 <body> 
 
 <?php
-  echo "<h2>Built from Dockerfile v2!</h2>";
+  echo "<h2>Built for Red Hat from Dockerfile v2!</h2>";
   echo "<p>Your User-Agent is:</p>";
   echo "<p>";
   echo $_SERVER['HTTP_USER_AGENT'];
